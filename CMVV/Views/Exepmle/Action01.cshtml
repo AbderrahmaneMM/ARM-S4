@@ -1,0 +1,23 @@
+﻿@model CMVV.Models.Model01
+    @using CMVV.Models;
+@{
+    ViewBag.Title = "Action01";
+}
+
+<h2>Action01</h2>
+<html>
+<head>
+<meta name="viewport"content="width=device-width"/>
+</head>
+<body>
+    <p>Choisez une perssone</p>
+    <form method="post" action="/Exepmle/Action01">
+        <select>
+            <option value="1">Bennoui Sami</option>
+            <option value="2">BouAbdellah Hamid</option>
+            <option value="3" selected="selected">BenYahiya Raouf</option>
+        </select>
+        <input name="Valider" type="submit" value="Valider"/>
+    </form>
+</body>
+</html>
